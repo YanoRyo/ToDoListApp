@@ -13,6 +13,7 @@
 		898CC4622442EC5E00F19E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898CC4602442EC5E00F19E2F /* Main.storyboard */; };
 		898CC4642442EC6400F19E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898CC4632442EC6400F19E2F /* Assets.xcassets */; };
 		898CC4672442EC6400F19E2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898CC4652442EC6400F19E2F /* LaunchScreen.storyboard */; };
+		898CC46F2442EC8400F19E2F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898CC46E2442EC8400F19E2F /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		898CC4632442EC6400F19E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		898CC4662442EC6400F19E2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		898CC4682442EC6400F19E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898CC46E2442EC8400F19E2F /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				898CC45A2442EC5E00F19E2F /* AppDelegate.swift */,
 				898CC45C2442EC5E00F19E2F /* SceneDelegate.swift */,
 				898CC45E2442EC5E00F19E2F /* ViewController.swift */,
+				898CC46E2442EC8400F19E2F /* NextViewController.swift */,
 				898CC4602442EC5E00F19E2F /* Main.storyboard */,
 				898CC4632442EC6400F19E2F /* Assets.xcassets */,
 				898CC4652442EC6400F19E2F /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				898CC45F2442EC5E00F19E2F /* ViewController.swift in Sources */,
+				898CC46F2442EC8400F19E2F /* NextViewController.swift in Sources */,
 				898CC45B2442EC5E00F19E2F /* AppDelegate.swift in Sources */,
 				898CC45D2442EC5E00F19E2F /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryo7032.ToDoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryo7032.ToDoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
